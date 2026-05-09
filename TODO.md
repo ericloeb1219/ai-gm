@@ -10,18 +10,18 @@
 
 ## Session 0 — 60-min activation
 
-- [ ] Create GitHub repo `gm-copilot` (public, MIT)
-- [ ] Push `README.md`
-- [ ] Buy domain (`gmcopilot.app` or `gmcopilot.ai`)
-- [ ] Add 2 recurring 2-hour blocks to calendar for the next 6 weeks
-- [ ] Draft Day-1 LinkedIn post in `posts/day-1-launch.md` (do not post yet)
-- [ ] Push this `TODO.md` to the repo
+- [x] Create GitHub repo `gm-copilot` (public, MIT)
+- [x] Push `README.md`
+- [x] Buy domain (`gmcopilot.app` or `gmcopilot.ai`)
+- [x] Add 2 recurring 2-hour blocks to calendar for the next 6 weeks
+- [x] Draft Day-1 LinkedIn post in `posts/day-1-launch.md` (do not post yet)
+- [x] Push this `TODO.md` to the repo
 
 ---
 
 ## Session 1 — Project structure (90 min)
 
-- [ ] Create directory layout:
+- [x] Create directory layout:
 
 ```
 gm-copilot/
@@ -45,7 +45,7 @@ gm-copilot/
 └── TODO.md
 ```
 
-- [ ] `requirements.txt`:
+- [x] `requirements.txt`:
 
 ```
 streamlit
@@ -55,13 +55,13 @@ python-dotenv
 langgraph     # not used in Week 1, but installing now to fail fast on env issues
 ```
 
-- [ ] `.gitignore`: include `.env`, `__pycache__/`, `.streamlit/`, `.venv/`
+- [x] `.gitignore`: include `.env`, `__pycache__/`, `.streamlit/`, `.venv/`
 
-- [ ] `.env.example`: just `ANTHROPIC_API_KEY=`
+- [x] `.env.example`: just `ANTHROPIC_API_KEY=`
 
-- [ ] Create local `.env` with your real key (never commit)
+- [x] Create local `.env` with your real key (never commit)
 
-- [ ] `pip install -r requirements.txt` succeeds without errors
+- [x] `pip install -r requirements.txt` succeeds without errors
 
 ---
 
