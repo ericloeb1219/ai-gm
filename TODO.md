@@ -122,10 +122,10 @@ def run_scout(trade: Trade) -> AgentReport:
 
 Repeat for:
 
-- [ ] `agents/architect.py` → `run_architect(trade)` (theme: archetype/fit/redundancy)
-- [ ] `agents/cap_apron.py` → `run_cap_apron(trade)` (theme: trade math/apron impact)
-- [ ] `agents/context.py` → `run_context(trade)` (theme: timing + intangibles)
-- [ ] `agents/gm.py` → `run_gm(trade, reports: List[AgentReport]) -> Recommendation` (synthesizes)
+- [x] `agents/architect.py` → `run_architect(trade)` (theme: archetype/fit/redundancy)
+- [x] `agents/cap_apron.py` → `run_cap_apron(trade)` (theme: trade math/apron impact)
+- [x] `agents/context.py` → `run_context(trade)` (theme: timing + intangibles)
+- [x] `agents/gm.py` → `run_gm(trade, reports: List[AgentReport]) -> Recommendation` (synthesizes)
 
 Make each stub return *visibly different* fake content so the synthesis looks alive. The GM stub should reference the others by name.
 
